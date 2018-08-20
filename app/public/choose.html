@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- links to CSS -->
+<link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
+<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<title>Race Simulation</title>
+</head>
+
+<body>
+    
+        <div class = "containter">
+
+                <div class = "row">
+                    <div class="jumbotron" id = "jumbotron">
+                        <h1 class="display-3" id = "title">Choose your Car</h1>
+                        <p class="lead">Race your car aound Monaco</p>
+                        <hr class="my-4">See how fast it can go around the track</h1>
+                    </div>
+      
+                    <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                              <a class="nav-link active" href="#">Race</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Create Your Ride</a>
+                            </li>
+                </div>
+
+                <div>
+
+                  <ul id ="carMakes">
+
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                        <img src="assets/images/car icons/Acura.png"><id ="Acura"> </id>
+                          <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                        </ul>
+                      </div>
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                        <img src="assets/images/car icons/Alfa-Romeo.png"><id ="Alfa"></id>
+                          <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                        </ul>
+                      </div>
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                        <img src="assets/images/car icons/Aston-Martin.png"><id ="AM"></id>
+                          <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                        </ul>
+                      </div>
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                            <img src="./assets/images/car icons/Audi.png"><id ="Audi"></id>
+                          <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                        </ul>
+                      </div>
+                    <div class="dropdown">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                              <img src="./assets/images/car icons/Bentley.png"><id = "Bentley"></id>
+                            <span class="caret"></span>
+                          </button>
+                          <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Menu item 1</a></li>
+                          </ul>
+                        </div>
+                      <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                            <img src="./assets/images/car icons/BMW.png"><id ="BMW"></id>
+                          <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Menu item 1</a></li>
+                        </ul>
+                      </div>
+                    <div class="dropdown">
+                      <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                              <img src="./assets/images/car icons/Bugatti.png"><id ="Bugatti"></id>
+                            <span class="caret"></span>
+                          </button>
+                          <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Menu item 1</a></li>
+                          </ul>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                            <img src="assets/images/car icons/Buick.png"><id ="Buick"></id>
+                              <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                            </ul>
+                          </div>
+                          <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                            <img src="assets/images/car icons/Cadillac.png"><id ="Cadillac"></id>
+                              <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                            </ul>
+                          </div>
+                          <div class="dropdown">
+                              <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                              <img src="assets/images/car icons/Chevy.png"><id ="Chevy"></id>
+                                <span class="caret"></span>
+                              </button>
+                              <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                              </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                <img src="assets/images/car icons/Chrysler.png"><id ="Chrysler"></id>
+                                  <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                </ul>
+                              </div>
+                              <div class="dropdown">
+                                  <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                  <img src="assets/images/car icons/Dodge.png"><id ="Dodge"></id>
+                                    <span class="caret"></span>
+                                  </button>
+                                  <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                              </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                <img src="assets/images/car icons/Ferrari.png"><id ="Ferrari"></id>
+                                  <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                </ul>
+                              </div>
+                            <div class="dropdown">
+                              <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                              <img src="assets/images/car icons/Fiat.png"><id ="Fiat"></id>
+                                <span class="caret"></span>
+                              </button>
+                              <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                              </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                <img src="assets/images/car icons/Ford.png"><id ="Ford"></id>
+                                  <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                </ul>
+                              </div>
+                              <div class="dropdown">
+                                  <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                  <img src="assets/images/car icons/genesis-car-specs.png"><id ="Gensis"></id>
+                                    <span class="caret"></span>
+                                  </button>
+                                  <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                  </ul>
+                              </div>
+                              <div class="dropdown">
+                                  <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                   <img src="assets/images/car icons/GMC.png"><id ="GMC"></id>
+                                     <span class="caret"></span>
+                                  </button>
+                                  <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                  </ul>
+                                </div>    
+                            <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                  <img src="assets/images/car icons/Honda.png"><id ="Honda"></id>
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                </ul>
+                              </div>
+                              <div class="dropdown">
+                                  <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                    <img src="assets/images/car icons/Hummer.png"><id ="Hummer"></id>
+                                      <span class="caret"></span>
+                                  </button>
+                                  <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                  </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Hyundai.png"><id ="Hyundai"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Infiniti.png"><id ="Infiniti"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Jaguar.png"><id ="Jaguar"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Jeep.png"><id ="Jeep"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Kia.png"><id ="Kia"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Koenigsegg.png"><id ="Koenigsegg"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Lamborghini.png"><id ="Lamborghini"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Land-Rover.png"><id ="LR"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Lexus.png"><id ="Lexus"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Lincoln.png"><id ="Lincoln"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Lotus.png"><id ="Lotus"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/maserati.png"><id = "Maserati"
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Mazda.png"><id ="Mazda"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Mclaren.png"><id ="Mclaen"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Mercedes.png"><id ="Mercedes"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Mercury.png"><id ="Mercury"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Mini.png"><id ="Mini"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Mitsubishi.png"><id ="Mitisubishi"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Nissan.png"><id ="Nissan"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Oldsmobile.png"><id ="Oldsmobile"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Plymouth.png"><id ="Plymouth"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Pontiac.png"><id ="Pontiac"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Porsche.png"><id ="Porsche"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/ram-truck.png"><id= "Ram"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/rolls-royce.png"><id "RR"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Saab.png"><id ="Sabb"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Saturn.png"><id ="Saturn"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Scion.png"><id ="Scion"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Shelby.png"><id ="Shelby"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Smart.png"><id = "Smart"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Subaru.png"><id ="Subaru"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Tesla.png"><id "Tesla"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Toyota.png"><id ="Toyota"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Volkswagen.png"><id "Volkswagen"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                                     <img src="assets/images/car icons/Volvo.png"><id ="Volvo"></id>
+                                       <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></li>
+                                    </ul>
+                                </div>
+      
+              </ul>
+
+                </div>
+
+<!-- JavaScrip -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
