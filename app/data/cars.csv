@@ -1,0 +1,200 @@
+1	1994	Ford	SVT Boss Mustang 10.0L Concept	1.9	10.5
+2	2002	Chevrolet	Corvette (Lingenfelter 427 Twin Turbo)	1.97	9.1
+3	2002	Dodge	Hennessey Viper Venom 1000TT	2.2	9.4
+4	2014	Porsche	918 Spyder	2.3	9.9
+5	2017	Tesla	Model S P100D 'Ludicrous Plus' Upgrade	2.3	10.5
+6	2018	Dodge	Challenger SRT Demon	2.3	9.6
+7	2009	Bugatti	Veyron EB 16.4	2.4	10.1
+8	2011	Bugatti	Veyron 16.4 Super Sport	2.4	9.6
+9	2013	Bugatti	Veyron 16.4 Grand Sport Vitesse	2.4	9.9
+10	2017	Tesla	Model S P100D 'Ludicrous Speed' Upgrade	2.4	10.6
+11	2018	Lamborghini	Huracan Performante	2.4	10.3
+12	2016	Venom	Hennessey GT Spyder	2.4	9.4
+13	2018	Audi	Hennessey R8 V10 Twin Turbo	2.4	10.2
+14	2015	Ariel	Atom 3.5R	2.5	10.8
+15	2015	SSC	Tuatara	2.5	9.7
+16	2017	Porsche	911 Turbo S	2.5	10.5
+17	2014	Corvette	Hennessey Stingray HPE1000	2.5	9.7
+18	2017	Audi	R8 V10 Plus	2.6	10.6
+19	2017	Acura	NSX	3	11.1
+20	2017	Alfa Romeo	Giulia Quadrifoglio	3.6	11.9
+21	2018	Alfa Romeo	Stelvio Quadrifoglio Q4	3.3	11.8
+22	2012	Aston Martin	V8 Vantage S	3.9	12.2
+23	2014	Aston Martin	Vanquish	3.9	12.2
+24	2017	Aston Martin	DB11	3.8	11.9
+25	2008	Audi	R8	3.9	12.4
+26	2012	Audi	TT RS	3.5	11.9
+27	2012	Audi	R8 GT	3.4	11.4
+28	2013	Audi	RS5	3.9	12.3
+29	2013	Audi	S7	3.9	12.4
+30	2013	Audi	S8	3.5	11.6
+31	2013	Audi	A8 L 4.0T	3.8	12.3
+32	2014	Audi	RS6 Avant	3.7	11.9
+33	2014	Audi	RS7	3.3	11.5
+34	2014	Audi	R8 Plus 5.2	3.2	11.3
+35	2016	Audi	S6	3.8	12.2
+36	2016	Audi	A8 L 4.0T Sport	3.9	12.4
+37	2017	Audi	R8 V10 Spyder	3.2	11.4
+38	2017	Audi	RS7 Performance	3.2	11.3
+39	2017	Audi	RS3 Quattro Sedan	3.6	12
+40	2018	Audi	TT RS Roadster	3.5	11.9
+41	2018	Audi	TT RS Coupe	3.3	11.7
+42	2008	Bentley	Continental GT Speed	3.9	12.3
+43	2015	Bentley	Continental GT3-R	3.3	11.6
+44	2017	Bentley	Bentayga SUV	3.5	11.9
+45	2018	Bentley	Continental GT Supersports	3.2	11.5
+46	2003	BMW	M3 GT3 Race Car	3.3	11.3
+47	2011	BMW	M3 GTS	3.6	11.9
+48	2012	BMW	X5 M	3.9	12.3
+49	2013	BMW	M5	3.6	11.8
+50	2013	BMW	M6 Convertible	3.9	12.1
+51	2013	BMW	M6 Coupe	3.9	12.1
+52	2013	BMW	Alpina B7 xDrive Long-Wheelbase	3.8	12
+53	2014	BMW	M5 Competition Package	3.6	11.7
+54	2014	BMW	M6 Gran Coupe	3.5	11.7
+55	2015	BMW	M4	3.8	12
+56	2015	BMW	i8	3.7	12.2
+57	2015	BMW	M3 Sedan	3.8	12
+58	2015	BMW	X5 M	3.8	12.2
+59	2016	BMW	X6 M	3.7	12.1
+60	2016	BMW	M4 GTS	3.6	11.9
+61	2016	BMW	Alpina B6 xDrive Gran Coupe	3.3	11.8
+62	2017	BMW	M760i xDrive	3.4	11.7
+63	2017	BMW	Alpina B7 xDrive	3.4	11.6
+64	2017	BMW	M4 Competition Package	3.8	12.1
+65	2017	BMW	M3 Competition M Performance Package Sedan	3.8	12.1
+66	2017	BMW	X5 M	3.8	12.2
+67	2018	BMW	M550i xDrive	3.8	12.3
+68	2009	Cadillac	CTS-V Sedan	3.9	12
+69	2011	Cadillac	CTS-V Coupe Lingenfelter (Supercharged)	3.8	11.7
+70	2016	Cadillac	CTS-V Sedan	3.5	11.7
+71	2016	Cadillac	ATS-V Coupe	3.8	12.1
+72	2016	Cadillac	ATS-V Sedan	3.8	12.1
+73	2010	Callaway	Camaro SC552	3.9	12
+74	2010	Callaway	Corvette SC606	3.5	11.1
+75	2012	Callaway	Corvette SC606	3.4	11.6
+76	2014	Callaway	C16	3.3	11
+77	2014	Callaway	Camaro SC582	3.9	11.9
+78	2014	Callaway	Camaro SC652	3.7	11.5
+79	2014	Callaway	Corvette Convertible SC610	3.4	11
+80	2015	Callaway	Camaro SC627	3.7	11.5
+81	2015	Callaway	Corvette SC627	3.4	11
+82	2018	Callaway	Camaro SC750	3.2	11
+83	1996	Chevrolet	Impala SS (with GM/Garrett Twin Turbo)	3.5	12.1
+84	2001	Chevrolet	Corvette C5-R	3.4	10.2
+85	2006	Chevrolet	Corvette	3.4	11.4
+86	2007	Chevrolet	Corvette	3.6	11.7
+87	2008	Chevrolet	Corvette	3.9	12.2
+88	2008	Chevrolet	Corvette Z06	3.7	11.8
+89	2009	Chevrolet	Corvette ZR1	3.3	11.1
+90	2010	Callaway	Camaro SC552	3.9	12
+91	2015	Nissan	370Z NISM	4.9	13.5
+92	2000	Noble	M12 GTO	4	12.6
+93	2004	Panoz	Esperante GT-LM	4.4	12.9
+94	2000	Plymouth	Hennessey Prowler GTX	4.5	12.9
+95	1965	Pontiac	Tempest GTO Hardtop	4.6	13
+96	1993	Pontiac	Firebird Firehawk	4.8	13.3
+97	2000	Pontiac	Trans Am WS6	4.9	13.5
+98	2001	Pontiac	SLP Trans Am Firehawk Anniversary	4.8	13.1
+99	2004	Pontiac	Lingenfelter LPE GTO	4.3	12.5
+100	2005	Pontiac	GTO	4.5	12.8
+101	2005	Pontiac	GTO	4.6	12.9
+102	2005	Pontiac	GTO	4.7	13.1
+103	2009	Pontiac	G8 GT SLP Firehawk	4	11.9
+104	2009	Pontiac	G8 GXP	4.5	13
+105	1986	Porsche	911 Turbo	4.9	13.2
+106	1991	Porsche	911 Turbo	4.8	13.2
+107	1993	Porsche	911 Turbo 3.6	4.3	12.5
+108	1993	Porsche	968 Turbo S	4.4	12.8
+109	1994	Porsche	911 Turbo 3.6	4.4	12.7
+110	1996	Porsche	911 Targa	4.9	13.3
+111	1998	Porsche	911 Carrera	4.9	13.3
+112	1999	Porsche	911 Carrera 4	4.9	13.2
+113	1999	Porsche	911 Carrera	4.9	13.3
+114	2001	Porsche	RUF 911 RGT	4.9	13.2
+115	2001	Porsche	911 Turbo	4.1	12.4
+116	2001	Porsche	911 Carrera	4.5	12.9
+117	2003	Porsche	911 Carrera 4S	4.5	12.9
+118	2004	Porsche	911 GT3	4.2	12.3
+119	2004	Porsche	911 GT3 RS	4.4	12.7
+120	2005	Porsche	911 Carrera S	4	12.4
+121	2006	Porsche	911 Cabriolet	4.3	12.9
+122	2006	Porsche	911	4.5	13.5
+123	2006	Porsche	911 Carrera 4S	4.3	12.6
+124	2006	Porsche	Cayman S	4.7	13.1
+125	2007	Porsche	Boxster S	4.9	13.2
+126	2007	Porsche	Cayenne Turbo S	4.8	13.5
+127	2007	Porsche	Cayman S	4.9	13.3
+128	2008	Porsche	911 GT3 Cup Race Car	4.7	12.8
+129	2008	Porsche	Cayenne Turbo	4.7	13.1
+130	2008	Porsche	Cayman GTR	4.3	12.6
+131	2009	Porsche	911 Carrera	4.1	12.7
+132	2010	Porsche	Cayenne Turbo S	4.3	12.7
+133	2010	Porsche	Panamera 4S	4.8	13.3
+134	2011	Porsche	911 Carrera GTS Coupe	4.2	12.6
+135	2011	Porsche	Boxster S Spyder	4.2	12.7
+136	2011	Porsche	Cayman R	4.1	12.6
+137	2011	Porsche	Cayman R	4.2	12.7
+138	2011	Porsche	Panamera 4	4.9	13.6
+139	2012	Porsche	Cayman R	4.1	12.6
+140	2013	Porsche	911 Carrera	4.3	12.7
+141	2013	Porsche	911 Carrera 4	4.2	12.7
+142	2013	Porsche	Boxster S	4.2	12.7
+143	2013	Porsche	Boxster S (Manual)	4.3	12.7
+144	2013	Porsche	Cayman S	4.4	12.8
+145	2013	Porsche	Panamera GTS	4	12.5
+146	2014	Porsche	Cayman S	4	12.3
+147	2014	Porsche	Panamera 4S Executive	4.3	12.7
+148	2015	Porsche	Macan Turbo	4.2	12.9
+149	2015	Porsche	Macan S	4.7	13.4
+150	2015	Porsche	911 Targa 4S	4.2	12.6
+151	2016	Porsche	Boxster GTS	4.1	12.5
+152	2016	Porsche	Boxster Spyder	4	12.2
+153	2017	Porsche	Macan GTS	4.4	13
+154	2017	Porsche	718 Boxster S (Manual)	4.3	12.6
+155	2017	Porsche	718 Boxster (Manual)	4.8	13
+156	2017	Porsche	718 Cayman (Manual)	4.3	12.8
+157	2017	Porsche	718 Boxster Sport Chrono	4	12.5
+158	2017	Porsche	911 Carrera (Manual)	4	12.4
+159	2011	Rolls-Royce	Ghost	4.2	12.5
+160	2015	Rolls-Royce	Wraith Coupe	4.2	12.4
+161	1995	Saleen	S351SR Mustang	4.6	12.7
+162	1998	Saleen	S351 Mustang	4.5	12.7
+163	1999	Saleen	S281 Mustang	4.7	13.2
+164	1999	Saleen	S351 Mustang	4.6	12.8
+165	2005	Saleen	S281 Mustang	4.9	13.3
+166	2011	Saleen	S302 Mustang	4.4	13.3
+167	1965	Shelby	Cobra 427 S/C	4.5	12.5
+168	1992	Shelby	Cobra 427 S/C	4.7	13.2
+169	1998	Shelby	Series 1	4.3	12.9
+170	1999	Shelby	Series 1	4.3	12.6
+171	2006	Ford	Shelby Mustang GT-H	4.9	13.4
+172	2007	Ford	GT500 Shelby Mustang	4.4	12.7
+173	2007	Ford	GT500 Shelby Mustang Convertible	4.7	13.2
+174	2008	Ford	GT500 Shelby Mustang	4.5	12.6
+175	2008	Ford	GT500KR Shelby Mustang (Supercharged 5.4L)	4.4	12.5
+176	2008	Ford	Shelby Mustang GT/SC	4.5	12.8
+177	2010	Ford	GT500 Shelby Mustang	4.5	12.7
+178	2010	Ford	GT500 Shelby Mustang	4.6	12.8
+179	2010	Ford	GT500 Shelby Mustang Super Snake	4	11.8
+180	2011	Ford	GT500 Shelby Mustang	4	12.2
+181	2016	Ford	Mustang Shelby GT350	4.1	12.4
+182	2003	Subaru	Impreza WRX STI	4.7	13.1
+183	2004	Subaru	Impreza WR1	4.2	12.6
+184	2004	Subaru	Impreza WRX STI	4.6	13.2
+185	2006	Subaru	Impreza 22B STI	4.6	13.3
+186	2006	Subaru	Impreza WRX STI	4.4	12.8
+187	2008	Subaru	Impreza WRX STI	4.7	13.3
+188	2011	Subaru	Impreza WRX Premium Package Sedan	4.9	13.5
+189	2011	Subaru	Impreza WRX STI Sedan	4.9	13.3
+190	2011	Subaru	Impreza WRX STI TS Sedan	4.8	13.2
+191	2015	Subaru	Impreza WRX STI Sedan	4.6	13.2
+192	2008	Tesla	Roadster	4.6	13.4
+193	1993	Toyota	Supra Turbo	4.5	12.9
+194	2009	Toyota	Tundra TRD Supercharged	4.6	13.3
+195	1991	Vector	W8	4.1	11.9
+196	1996	Vector	M12	4.7	12.6
+197	2015	Volkswagen	Golf R	4.5	13
+198	2017	Volvo	V60 Polestar	4.4	13
+199	2018	Volvo	S90 T8 Inscription Plug-In Hybrid	4.5	13.3
+200	1999	Westfield	FW400	4.4	12.7
